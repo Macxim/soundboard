@@ -1,0 +1,9 @@
+<div class="sounds">
+  {{#each}}
+    <button class="sound-item" {{action 'playPause'}}>
+        {{title}}
+    </button>
+  {{/each}}
+</div>
+
+{{outlet}}
