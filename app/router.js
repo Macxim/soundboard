@@ -6,7 +6,7 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.route('sounds');
+  this.route('sounds', {path: "sounds"});
 });
 
 export default Router;
