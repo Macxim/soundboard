@@ -5,7 +5,7 @@ export default Ember.Component.extend({
   fileName: '',
   soundUrl: function() {
     var fileName = this.get('fileName');
-    return 'assets/sounds/' + fileName;
+    return 'assets/sounds/' + fileName + '.mp3';
   }.property('fileName'),
   actions:{
     playPause: function(){
