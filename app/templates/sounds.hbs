@@ -1,6 +1,10 @@
 <div class="sounds">
   {{#each model}}
-    {{sound-button title=title fileName=fileName}}
-    <img {{bind-attr src="coverUrl"}} alt="fileName" class="sound-cover" />
+  <figure class="sound-item">
+    <figcaption>
+      {{sound-button title=title fileName=fileName}}
+    </figcaption>
+    <img {{bind-attr src="coverUrl"}} alt="fileName" class="sound__cover" />
+  </figure>
   {{/each}}
 </div>

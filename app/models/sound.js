@@ -5,7 +5,7 @@ var Sound = DS.Model.extend({
   fileName: DS.attr('string'),
   coverUrl: function() {
         return '/assets/images/' + this.get('fileName') + '.png';
-    }.property('coverName')
+    }.property('coverUrl')
 });
 
 Sound.reopenClass({
