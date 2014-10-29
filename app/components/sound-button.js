@@ -9,7 +9,13 @@ export default Ember.Component.extend({
   }.property('fileName'),
   actions:{
     playPause: function(){
-      console.log(this.get('soundUrl'));
+      var soundUrl = this.get('soundUrl');
+      // Ideally we  should maybe make the soundmanager.sound
+      // object the computed property of the model, rather than a string
+      this.sound =  soundManager.createSound({
+        url: soundUrl
+      });
+      this.sound.play();
     }
   }
 
