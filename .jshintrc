@@ -2,7 +2,8 @@
   "predef": [
     "document",
     "window",
-    "-Promise"
+    "-Promise",
+    "soundManager"
   ],
   "browser" : true,
   "boss" : true,
