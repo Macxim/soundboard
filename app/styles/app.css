@@ -1,0 +1,143 @@
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Hide only visually, but have it available for screenreaders: h5bp.com/v */
+.visuallyhidden{
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus{
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+/* ------------------------------------------------- */
+
+.soundboard{
+  text-align: center;
+  width: 268px;
+  height: 268px;
+  border: 1px solid #B5BCC3;
+  margin: 1em;
+  position: relative;
+  float: left;
+}
+
+.soundboard:after{
+  position: absolute;
+  content: "";
+  top: -23px;
+  right: -24px;
+  width: 45px;
+  height: 44px;
+  border-left: 1px solid #B5BCC3;
+  background-color: white;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.soundboard__logo{
+  width: 55%;
+  margin: 3.5em 0 1em 0;
+}
+
+.soundboard__tagline{
+  color: #697D8D;
+  display: inline-block;
+  border-top: 1px solid #B5BCC3;
+  padding-top: 15px;
+}
+
+.soundboard__tagline-author{
+  display: block;
+  color: #E74C3C;
+}
+
+.soundboard__tagline,
+.soundboard__tagline-author,
+.sound__trigger{
+  font-family: Georgia;
+  font-style: italic;
+}
+
+
+
+/* --------------------------------------- */
+
+
+figure {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+figure img {
+  position: relative;
+  display: block;
+  min-height: 100%;
+  max-width: 100%;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+}
+
+figure:hover img{
+  opacity: 0.1;
+  -webkit-transform: scale3d(1.1,1.1,1);
+  transform: scale3d(1.1,1.1,1);
+}
+
+figure:hover .sound__trigger{
+  z-index: 2;
+  cursor: pointer;
+}
+
+figure figcaption,
+figure figcaption .sound__trigger {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.sound__trigger{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background: -webkit-linear-gradient(45deg, #1A2530 0%, #34495E 25%, #2C3E50 50%, #E74C3C 100%);
+  background: linear-gradient(45deg, #1A2530 0%, #34495E 25%, #2C3E50 50%, #E74C3C 100%);
+  color: #FFF;
+  font-size: .85rem;
+  padding: 1.5em;
+  cursor: pointer;
+  opacity: .75;
+}
