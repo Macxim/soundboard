@@ -2,10 +2,7 @@ import DS from 'ember-data';
 
 var Sound = DS.Model.extend({
   title: DS.attr('string'),
-  fileName: DS.attr('string'),
-  coverUrl: function() {
-        return '/assets/images/' + this.get('fileName') + '.png';
-    }.property('coverUrl')
+  fileName: DS.attr('string')
 });
 
 Sound.reopenClass({
