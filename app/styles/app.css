@@ -100,7 +100,6 @@ figure {
 figure img {
   position: relative;
   display: block;
-  min-height: 100%;
   max-width: 100%;
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
