@@ -10,7 +10,7 @@ export default Ember.Component.extend({
     return 'assets/sounds/' + fileName + '.mp3';
   }.property('fileName'),
   actions:{
-    playPause: function(){
+    playSound: function(){
       var soundUrl = this.get('soundUrl');
       // Ideally we  should maybe make the soundmanager.sound
       // object the computed property of the model, rather than a string
@@ -20,5 +20,4 @@ export default Ember.Component.extend({
       this.sound.play();
     }
   }
-
 });
