@@ -82,6 +82,34 @@ Sound.reopenClass({
   id: 19,
   title: 'C\'est des malades !',
   fileName: 'des-malades'
+}, {
+  id: 20,
+  title: 'Tu ne me vois pas ?',
+  fileName: 'tu-ne-me-vois-pas'
+}, {
+  id: 21,
+  title: 'Le rire de L\'Embrouille',
+  fileName: 'rire-lembrouille'
+}, {
+  id: 22,
+  title: 'Oh la la, c\'est pourri !',
+  fileName: 'olala-cest-pourri'
+}, {
+  id: 23,
+  title: 'Ils sont pas aware',
+  fileName: 'ils-sont-pas-aware'
+}, {
+  id: 24,
+  title: 'Éducation minimum',
+  fileName: 'education-minimum'
+}, {
+  id: 25,
+  title: 'Ct\'un truc anglais',
+  fileName: 'un-truc-anglais'
+}, {
+  id: 26,
+  title: 'La même ?',
+  fileName: 'la-meme'
 }
 ]});
 
