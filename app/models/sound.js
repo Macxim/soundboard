@@ -87,6 +87,10 @@ Sound.reopenClass({
   title: 'Tu ne me vois pas ?',
   fileName: 'tu-ne-me-vois-pas'
 }, {
+  id: 26,
+  title: 'La même ?',
+  fileName: 'la-meme'
+}, {
   id: 21,
   title: 'Le rire de L\'Embrouille',
   fileName: 'rire-lembrouille'
@@ -106,10 +110,6 @@ Sound.reopenClass({
   id: 25,
   title: 'Ct\'un truc anglais',
   fileName: 'un-truc-anglais'
-}, {
-  id: 26,
-  title: 'La même ?',
-  fileName: 'la-meme'
 }
 ]});
 
