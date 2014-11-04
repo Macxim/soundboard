@@ -48,7 +48,7 @@ Sound.reopenClass({
   fileName: 'il-comprend-rien'
 }, {
   id: 11,
-  title: 'Ah la la c\'est chelou !',
+  title: 'Ah la la c\'est chelou !',
   fileName: 'alala-cest-chelou'
 }, {
   id: 12,
@@ -84,30 +84,30 @@ Sound.reopenClass({
   fileName: 'des-malades'
 }, {
   id: 20,
-  title: 'Tu ne me vois pas ?',
+  title: 'Tu ne me vois pas ?',
   fileName: 'tu-ne-me-vois-pas'
 }, {
-  id: 26,
+  id: 21,
   title: 'La même ?',
   fileName: 'la-meme'
 }, {
-  id: 21,
+  id: 22,
   title: 'Le rire de L\'Embrouille',
   fileName: 'rire-lembrouille'
 }, {
-  id: 22,
-  title: 'Oh la la, c\'est pourri !',
+  id: 23,
+  title: 'Oh la la, c\'est pourri !',
   fileName: 'olala-cest-pourri'
 }, {
-  id: 23,
+  id: 24,
   title: 'Ils sont pas aware',
   fileName: 'ils-sont-pas-aware'
 }, {
-  id: 24,
+  id: 25,
   title: 'Éducation minimum',
   fileName: 'education-minimum'
 }, {
-  id: 25,
+  id: 26,
   title: 'Ct\'un truc anglais',
   fileName: 'un-truc-anglais'
 }
