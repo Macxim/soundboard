@@ -140,3 +140,24 @@ figure figcaption .sound__trigger {
   cursor: pointer;
   opacity: .75;
 }
+
+.sound__link{
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #fff;
+  background-color: #34495E;
+  padding: 2px 9px;
+  text-decoration: none;
+  font-style: italic;
+  opacity: .2;
+}
+
+figure:hover .sound__link{
+  z-index: 2;
+  opacity: 1;
+}
+
+.sound__link:hover{
+  background-color: #1A2530;
+}
