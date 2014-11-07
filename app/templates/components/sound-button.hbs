@@ -5,4 +5,5 @@
     </button>
   </figcaption>
   <img {{bind-attr src="coverUrl"}} alt="fileName" class="sound__cover" />
+  {{#link-to 'show' fileName class="sound__link"}}i{{/link-to}}
 </figure>
