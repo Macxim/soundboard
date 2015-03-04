@@ -1,8 +1,10 @@
-<ul style="margin-left: 20em">
-  <li>title: {{title}}</li>
-  <li>fileName: {{fileName}}</li>
-  <li>id: {{id}}</li>
-  {{#if source}}
-    <li>source: <a {{bindAttr href="source"}}>Source</a></li>
-  {{/if}}
-</ul>
+<div class="soundItem">
+  <h2 class="soundItem-title">{{title}}</h2>
+  <div class="soundItem-details">
+    {{fileName}}
+    {{#if source}}
+      <a {{bindAttr href="source"}}>Source</a>
+    {{/if}}
+  </div>
+</div>
+<div class="overlay"></div>
