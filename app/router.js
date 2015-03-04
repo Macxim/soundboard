@@ -7,7 +7,7 @@ var Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('index', {path: ''});
-  this.route('show', {path: '/sound/:id'});
+  this.route('show', {path: '/sound/:fileName'});
 });
 
 export default Router;
