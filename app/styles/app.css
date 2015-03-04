@@ -10,6 +10,10 @@ html {
   box-sizing: inherit;
 }
 
+body{
+  font-family: Georgia;
+}
+
 /* Hide only visually, but have it available for screenreaders: h5bp.com/v */
 .visuallyhidden{
   border: 0;
@@ -160,4 +164,44 @@ figure:hover .sound__link{
 
 .sound__link:hover{
   background-color: #1A2530;
+}
+
+.overlay{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  visibility: visible;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  opacity: .95;
+  background: -webkit-linear-gradient(45deg, #1A2530 0%, #34495E 25%, #2C3E50 50%, #E74C3C 100%);
+  background: linear-gradient(45deg, #1A2530 0%, #34495E 25%, #2C3E50 50%, #E74C3C 100%);
+}
+
+.soundItem{
+  position: fixed;
+  top: 15%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+  min-width: 320px;
+  height: auto;
+  z-index: 2;
+  background-color: white;
+}
+
+.soundItem-details{
+  padding: 2em;
+}
+.soundItem-title{
+  margin: 0px;
+  padding: 0.4em;
+  text-align: center;
+  font-size: 2.4em;
+  opacity: 0.8;
+  border-bottom: 1px solid #B5BCC3;
+  background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.1);
 }
