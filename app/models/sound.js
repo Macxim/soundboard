@@ -110,6 +110,22 @@ Sound.reopenClass({
   id: 26,
   title: 'Ct\'un truc anglais',
   fileName: 'un-truc-anglais'
+}, {
+  id: 27,
+  title: 'Mozart imbécile',
+  fileName: 'mozart-imbecile'
+}, {
+  id: 28,
+  title: 'Tu es viré',
+  fileName: 'tu-es-vire'
+}, {
+  id: 29,
+  title: 'Tu es né idiot',
+  fileName: 'tu-es-ne-idiot'
+}, {
+  id: 30,
+  title: 'J\'ai envie de rentrer',
+  fileName: 'jai-envie-de-rentrer'
 }
 ]});
 
