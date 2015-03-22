@@ -1,10 +1,10 @@
-<div class="soundItem">
-  <h2 class="soundItem-title">{{title}}</h2>
-  <div class="soundItem-details">
-    {{fileName}}
+<div class="sdb-Overlay"></div>
+<div class="sdb-SoundDetails">
+  <h2 class="sdb-SoundDetails-title">{{title}}</h2>
+  <div class="sdb-SoundDetails-content">
+    {{sound-details title=title fileName=fileName sound=this}}
     {{#if source}}
-      <a {{bindAttr href="source"}}>Source</a>
+      <a class="sdb-SoundDetails-source" {{bindAttr href="source"}}>Source</a>
     {{/if}}
   </div>
 </div>
-<div class="overlay"></div>
