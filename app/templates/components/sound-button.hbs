@@ -1,9 +1,7 @@
-<figure class="sound-item">
-  <figcaption>
-    <button class="sound__trigger" {{action 'playSound' soundUrl}}>
-      {{title}}
-    </button>
-  </figcaption>
-  <img {{bind-attr src="coverUrl"}} alt="fileName" class="sound__cover" />
-  {{#link-to 'show' sound class='sound__link'}}i{{/link-to}}
-</figure>
+<div class="sbd-Sound">
+  <button class="sbd-SoundTrigger" {{action 'playSound' soundUrl}}>
+    {{title}}
+  </button>
+  <img {{bind-attr src="coverUrl"}} alt="fileName" class="sbd-SoundCover" />
+  {{#link-to 'show' sound class='sbd-SoundLink'}}i{{/link-to}}
+</div>
