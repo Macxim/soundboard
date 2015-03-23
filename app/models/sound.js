@@ -112,7 +112,7 @@ Sound.reopenClass({
   fileName: 'un-truc-anglais'
 }, {
   id: 27,
-  title: 'Mozart imbécile',
+  title: 'Mozart c\'t\'un imbécile',
   fileName: 'mozart-imbecile'
 }, {
   id: 28,
@@ -126,6 +126,46 @@ Sound.reopenClass({
   id: 30,
   title: 'J\'ai envie de rentrer',
   fileName: 'jai-envie-de-rentrer'
+}, {
+  id: 31,
+  title: 'Allez dégage !',
+  fileName: 'allez-degage'
+}, {
+  id: 32,
+  title: 'Bah c\'est-à-dire...',
+  fileName: 'cest-a-dire-que'
+}, {
+  id: 33,
+  title: 'C\'est excessivement énervant',
+  fileName: 'cest-excessivement-enervant'
+}, {
+  id: 34,
+  title: 'J\'ai parfaitement compris',
+  fileName: 'jai-parfaitement-compris'
+}, {
+  id: 35,
+  title: 'Les bières !!',
+  fileName: 'les-bieres'
+}, {
+  id: 36,
+  title: 'Éviter les sales racistes',
+  fileName: 'sales-racistes-dans-ton-genre'
+}, {
+  id: 37,
+  title: 'T\'es pas en class verte, toi ?',
+  fileName: 'tes-pas-en-classe-verte'
+}, {
+  id: 38,
+  title: 'Ta gueule !!!',
+  fileName: 'ta-gueule'
+}, {
+  id: 39,
+  title: 'Va te faire refaire, alien !',
+  fileName: 'va-te-faire-refaire-alien'
+}, {
+  id: 40,
+  title: 'C\'était mieux avant...',
+  fileName: 'cetait-mieux-avant'
 }
 ]});
 
